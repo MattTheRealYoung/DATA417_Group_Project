@@ -7,4 +7,6 @@ This repo is for DATA417 group project of team DSC
 ![prototype](prototype.JPG)
 
 ### Nisha's outline pdf
-[Link](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/outline%20.pdf)
+[Link to PDF on Github](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/outline%20.pdf)  
+  
+[Link to google doc](https://docs.google.com/document/d/1EbUHU4czVYoUNK89y1SbcBWrI7OIzctut0_MTYltrKM/edit)
