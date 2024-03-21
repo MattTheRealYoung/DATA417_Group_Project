@@ -13,4 +13,7 @@ Tracking of changes and work done is to be recorded in the [Group Diary](https:/
 ### Nisha's outline pdf
 [Link to PDF on Github](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/outline%20.pdf)  
   
-[Link to google doc](https://docs.google.com/document/d/1EbUHU4czVYoUNK89y1SbcBWrI7OIzctut0_MTYltrKM/edit)
+[Link to google doc](https://docs.google.com/document/d/1EbUHU4czVYoUNK89y1SbcBWrI7OIzctut0_MTYltrKM/edit)  
+
+### Vincent's Diagram
+[Google drive invite link](https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link)
