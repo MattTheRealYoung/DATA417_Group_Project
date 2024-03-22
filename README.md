@@ -20,3 +20,6 @@ Tracking of changes and work done is to be recorded in the [Group Diary](https:/
 
 ### Vincent's Diagram
 [Google drive invite link](https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link)
+
+### Xiaowen's notes
+[Google drive invite link]([https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link](https://github.com/MattTheRealYoung/DATA417_Group_Project/commit/5af2d3f3e45a355bdcaa165a23ea8c62d77d2c17)https://github.com/MattTheRealYoung/DATA417_Group_Project/commit/5af2d3f3e45a355bdcaa165a23ea8c62d77d2c17)
