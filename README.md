@@ -26,4 +26,9 @@ Tracking of changes and work done is to be recorded in the [Group Diary](https:/
 
 <img width="955" alt="image" src="https://github.com/MattTheRealYoung/DATA417_Group_Project/assets/162763066/a7aabc27-b772-4b33-ae94-8a92f6a60e7b">
 
+### Matt's 
+Potential ideas target on algorithm to choose better candidates (exclude skills)
+- Who is team worker
+- Who is good at communication
+
 
