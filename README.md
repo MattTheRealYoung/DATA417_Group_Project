@@ -5,6 +5,9 @@ This repo is for DATA417 group project of team DSC
 Sample code for the system can be found on the link below:- https://github.com/rohitbakoliya/sieve.ai
 and solved code for our project can be similar to the NLP file in the project below:- https://github.com/marssemenova/TechTogetherFinal
 
+### Ideas
+Feedback for the candidate and candidate can take a reference where it can improve in both career and CV.
+
 ### Proposal Document
 [proposal document](https://docs.google.com/document/d/1It0syYFqNDQjwqlid4bHZTeLbsTHisdBketTSFYM4OQ/edit?usp=sharing)
 
