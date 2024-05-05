@@ -8,9 +8,6 @@ and solved code for our project can be similar to the NLP file in the project be
 ### Ideas
 Feedback for the candidate and candidate can take a reference where it can improve in both career and CV.
 
-### Proposal Document
-[proposal document](https://docs.google.com/document/d/1It0syYFqNDQjwqlid4bHZTeLbsTHisdBketTSFYM4OQ/edit?usp=sharing)
-
 ### Group Diary
 Tracking of changes and work done is to be recorded in the [Group Diary](https://docs.google.com/document/d/1C2CSd41y9VPXxJpMA94QP3xomMXTIVKzO-EDZblYChc/edit)  
   
