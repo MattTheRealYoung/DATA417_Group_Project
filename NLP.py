@@ -39,19 +39,22 @@ x=Preprocessfile('jobtype.txt')
 resume_words=Preprocessfile('resume.pdf')
 
 # Words to split
-common_words = ['needs', 'must', 'preferred']
+common_words = ['needs', 'must', 'preferred', 'email', 'phone', 'cv', 'page',
+                'image', 'et', 'al', 'using', 'images', 'list', 'company',
+                'track', 'forms']
 
 x = [w for w in x.split() if w not in common_words] # Strip common words that are irrelevant
 y= [word for word in resume_words.split() if word in x] 
 y = [w for w in y if w not in common_words] # Ignore words only in resume for comparrision
 
-# Form list of excess words and words missing
-missing_words = [w for w in x if not w in y]
-Excess_words = [w for w in resume_words.split() if not w in x]
-
 # Remove duplicate words
 y = list(dict.fromkeys(y))
 x = list(dict.fromkeys(x))
+z = list(dict.fromkeys(resume_words.split()))
+
+# Form list of excess words and words missing
+missing_words = [w for w in x if not w in y]
+excess_words = [w for w in z if w not in common_words and not w in x]
 
 y=" ".join(y)
 x = " ".join(x)
@@ -68,9 +71,3 @@ matchpercent = cosine_similarity(count_matrix)[0][1]*100
 matchpercent = round(matchpercent,2)
 
 print("Your Resume matches about " + str(matchpercent) + "% of the job")
-    
-     
-
-
-
-     
