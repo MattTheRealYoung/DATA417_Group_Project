@@ -1,6 +1,8 @@
 # Natural Language Processing Explaination
-
 This code takes in a pdf resume and a job description text file and finds the cosine similarity between the unique words in the job description and resume.
+
+### Input
+The input is a pdf resume ("Resume.pdf or Resume_bad.pdf") and a text document called "jobtype"
 
 ### Preprocessing
 First the files are pre processed to remove puncuation, isolate words, and remove common words (and duplicate words). These words are put into a list
@@ -14,3 +16,6 @@ The words that are only in the job description are seperated out for the manager
 
 Now that there is a list of words in job description and words from the job description in the resume, the similarity between these lists is found using cosine similarity. This gives a "matching score".
 The missing words can be looked at to see if the differences are important or more menial.
+
+### Output
+The code will output the words missing from the resume that are in the job description and a percent similarity score for the 2 documents
