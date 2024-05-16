@@ -35,8 +35,9 @@ def Preprocessfile(filename):
   return res
      
 
-x=Preprocessfile('jobtype.txt')
-resume_words=Preprocessfile('resume.pdf')
+x = Preprocessfile('jobtype.txt')
+resume_words = Preprocessfile('resume.pdf')
+# resume_words = Preprocessfile('bad_resume.pdf')
 
 # Words to split
 common_words = ['needs', 'must', 'preferred', 'email', 'phone', 'cv', 'page',
