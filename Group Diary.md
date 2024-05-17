@@ -70,7 +70,9 @@ Other  (KM)
 Code/future improvements (VL)
 
 ### 17 May 2024
-Moved Google Docs into Github
+Transfered Google Documents into Github so information was not spread everywhere
+
+Reformatted Git to increase readability
 
 VL
   
