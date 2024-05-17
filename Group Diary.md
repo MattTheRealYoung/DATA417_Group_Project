@@ -69,6 +69,9 @@ Other  (KM)
 
 Code/future improvements (VL)
 
+###  11 May 2024
+Started Report writing (NB)
+
 ### 17 May 2024
 Transfered Google Documents into Github so information was not spread everywhere
 
