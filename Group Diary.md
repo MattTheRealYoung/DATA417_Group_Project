@@ -26,12 +26,13 @@ Added links to Docs from Github
 Added diagram to Github
 										VL
 
-### 24 March 2024
+### 23 March 2024
 Made diagram on computer and added to github
 										VL
 
 
 ### 25 March 2024 
+NB created Document, then NB, KM, MY, VL, CY worked on in group session
 Transparency 
 Autonomy  – Introduce loss function changing 
 Privacy 
