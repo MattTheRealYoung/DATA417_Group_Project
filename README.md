@@ -19,7 +19,10 @@ and solved code for our project can be similar to the NLP file in the project be
 ### Diagram
 [Google drive invite link](https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link)
 
-<!-- ### Xiaowen's notes
+<!-- ### Outline Doc
+[Google drive invite link](https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link)
+
+### Xiaowen's notes
 <img width="958" alt="image" src="https://github.com/MattTheRealYoung/DATA417_Group_Project/assets/162763066/a24687e7-a07e-4c01-9c7c-8abb23b86920">
 
 <> <img width="955" alt="image" src="https://github.com/MattTheRealYoung/DATA417_Group_Project/assets/162763066/a7aabc27-b772-4b33-ae94-8a92f6a60e7b"> -->
