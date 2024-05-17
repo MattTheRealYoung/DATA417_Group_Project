@@ -14,7 +14,7 @@ Tracking of changes and work done is to be recorded in the [Group Diary](https:/
   
 
 ### Prototype
-![prototype](prototype.JPG)
+![prototype](images/prototype.JPG)
 
 ### Nisha's outline pdf
 [Link to PDF on Github](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/outline%20.pdf)  
