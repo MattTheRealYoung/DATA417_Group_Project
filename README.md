@@ -12,10 +12,7 @@ and solved code for our project can be similar to the NLP file in the project be
 ### Prototype
 ![prototype](images/prototype.JPG)
 
-### Nisha's outline pdf
-[Link to google doc](https://docs.google.com/document/d/1EbUHU4czVYoUNK89y1SbcBWrI7OIzctut0_MTYltrKM/edit)  
-
-### Vincent's Diagram
+### Diagram
 [Google drive invite link](https://drive.google.com/file/d/15iWeyJ5ZZqjZbVTDax3m2jQRDaAdv6BH/view?usp=drive_link)
 
 ### Xiaowen's notes
