@@ -79,3 +79,14 @@ Reformatted Git to increase readability
 
 VL
   
+### 18 May 2024
+**Report writing:** 
+Background, Methodology, Data Management, Result and Discussion sections
+
+Introduction part started by Cloris, added to the Introduction 
+
+Result and discussion sections will be revised after finishing the coding algorithm
+
+All parts need to  be revised again  after finishing  the algorithm
+
+(NB)
