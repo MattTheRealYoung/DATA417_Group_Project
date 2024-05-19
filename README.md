@@ -4,6 +4,7 @@ This repo is for DATA417 group project of team DSC
 ## Explanation of project is in outline.md
 
 ## Code is stored in prototype_code
+To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token.
 
 ## Amazon AI-based recruiting system
 Sample code for the system can be found on the link below:- https://github.com/rohitbakoliya/sieve.ai
