@@ -13,6 +13,7 @@ and solved code for our project can be similar to the NLP file in the project be
 ### Ideas
 - Feedback for the candidate and candidate can take a reference where it can improve in both career and CV.
 - Further discovery on LLMs(Chatgpt, Llama) and library for python [Langchian](https://python.langchain.com/v0.1/docs/get_started/introduction/)
+- How to deal with the resume data (Deletion)
 
 ### Prototype
 ![prototype](images/prototype.JPG)
