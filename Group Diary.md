@@ -90,3 +90,12 @@ Result and discussion sections will be revised after finishing the coding algori
 All parts need to  be revised again  after finishing  the algorithm
 
 (NB)
+
+### 22 May 2024
+Added New Algorithm description
+
+describing both the word based comparison and the LLM based comparison
+
+5 paragraphs in section
+
+VL
