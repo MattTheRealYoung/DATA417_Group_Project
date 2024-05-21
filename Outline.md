@@ -74,6 +74,18 @@ Put together a variety of fake resumes with expected rating values. Check that A
 Rules
 Weighting the keywords：We introduce a keyword weighting system into the algorithm, assigning higher scores to words that reflect a gender-neutral and fair balance in the workplace. For instance, skills or achievements that do not involve gender differences should receive higher weighting.
 
+## New Algorithm Description
+This new algoritm has 2 parts: A word comparison and a LLM comparison. Both methods start by using textract to scrape text off of a job description (written in text in our prototype) and a resume (a PDF in our prototype).
+
+### Word based matching feedback
+The word comparison then removes all punctuation and common words and turns the rest of the words into tokens. The words in both inputs are compared to the words in the job description with cosine similarity to give a percent match score. The words that are only in the job description are returned as missing words to let the user know which words are missing from their resume that can be added (if they have those skills) or work on in real life to be more appealing to the job. Words that are only in the resume can be returned to refine the job description if needed, but this would be a different usecase than originally made for.
+
+The feedback is limited as it can olny tell you if the words match. It does not take into account the meaning of sentences. For example: if the job description said "Needs to be fluent in English." and the resume said "Cannot speak english. Fluent in Java." The key words "Fluent" and "English" are present in both despite not being a match at all.
+
+### LLM based feedback
+The LLM aims to solve the lack of meaning transference by having an AI analyse the resume. It does this by taking the words from each text source and asking Open AI to compare them. The prompt it uses is: " Compare the job description and resume. give a score of similarity between 0 and 1, List the matching skills, experiences, and qualifications. Identify any gaps or areas where the resume does not meet the job description requirements." This provides both a percent similarity and feedback to note what is missing from the resume. The problem is the lack of absolute feedback, the AI model may not comment on something, or misinterpret what is passed through to it. All the general problems with AI are applicable here. However, it will not make the same mistake with the "Needs to be fluent in English." and "Cannot speak english. Fluent in Java." problem. It is very useful as recutier AI systems will probably act similarly and thus can make your resume look better from an AI perspective, which is what we are trying to solve.
+
+By using both these systems in tandem, the user can get both concrete feedback of missing words and a more general AI based feedback which provide the missing transparency from these AI recruitment systems. The user will be able to iteratively improve their resume with these tools and have a higher chance of getting to the interview where they will have a higher chance of getting the job.
 
 ### Research articles (With Notes)
 Ethics and discrimination in artificial intelligence-enabled recruitment practices
@@ -100,6 +112,7 @@ Differential testing
 Management measures like internal corporate ethical governance and external oversight
 Grounded theory for respondents’ experiences and perceptions
 
+
 Amazon ditched AI recruiting tool that favored men for technical jobs
 https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine
 Men favoured for job
@@ -110,6 +123,7 @@ Gendered language was quantified instead of measures of job fit
 Results ‘almost random’ - unqualified people recommended for many jobs’
 Transparency a major issue
 Thoughts are that AI recruitment is not bad, just the implementation
+
 
 An overview of ethical issues in using AI systems in hiring with a case study of Amazon's AI based hiring tool
 https://www.academia.edu/42965903/An_overview_of_ethical_issues_in_using_AI_systems_in_hiring_with_a_case_study_of_Amazons_AI_based_hiring_tool
@@ -129,6 +143,7 @@ irreconcilable ideas - i.e. A new set of data the AI has not seen
 Contextual integrity - what can the company do with submitted resumes (train AI? Validate?)
 Liﬃck’s analysis 
 
+
 Gender Bias in Hiring: An Analysis of the Impact of Amazon's Recruiting Algorithm
 https://www.researchgate.net/publication/373896468_Gender_Bias_in_Hiring_An_Analysis_of_the_Impact_of_Amazon%27s_Recruiting_Algorithm
 Investigates algorithmic gender bias using (and purposive sampling):
@@ -147,6 +162,7 @@ Diversity goal implementation
 Mentorship/training programmes
 Outreach/support for women
 
+
 Is AI recruiting (un)ethical? A human rights perspective on the use of AI for hiring
 https://link.springer.com/article/10.1007/s43681-022-00166-4
 Human right perspective on AI recruiting
@@ -159,6 +175,7 @@ Compares positive image against ethical concerns
 Defines Ai recruiting
 Explains how AI recruiting is not inherently unethical
 Elaborates that unethical implications come from the context AI is developed
+
 
 Applicants' perception of AI in the recruitment process
 https://www.sciencedirect.com/science/article/pii/S2451958823000362 
@@ -173,6 +190,7 @@ Ease of use
 Satisfaction
 Company attractiveness with use of AI
 etc.
+
 
 Can AI resume screening be Biased?
 https://leoforce.com/blog/tackling-ai-resume-screening-bias/ 
