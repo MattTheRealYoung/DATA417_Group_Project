@@ -1,9 +1,10 @@
 # DATA417_Group_Project
 This repo is for DATA417 group project of team DSC
 
-## Explanation of project is in outline.md
+Explanation of project is in ![outline.md](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/Outline.md)
 
-## Code is stored in prototype_code
+Code is stored in prototype_code, Explanation of NLP code is in ![NLP README](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/prototype_code/NLP%20README.md)
+
 To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token.
 
 ## Amazon AI-based recruiting system
