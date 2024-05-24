@@ -82,6 +82,21 @@ The word comparison then removes all punctuation and common words and turns the 
 
 The feedback is limited as it can olny tell you if the words match. It does not take into account the meaning of sentences. For example: if the job description said "Needs to be fluent in English." and the resume said "Cannot speak english. Fluent in Java." The key words "Fluent" and "English" are present in both despite not being a match at all.
 
+An example of a data science job description compared to a data scientist's resume can be seen in Figure 1. This same job description with a graphic designer's resume can be seen in Figure 2. The word "addedword" was added and comapred to the data scientist's resume which gave the results in Figure 3.
+
+![Good_resume_word_comparison](images/Good_resume_NLP.png)
+
+Figure 1: Example of a data science job description compared to a data scientist's resume.
+
+
+![Good_resume_word_comparison](images/Bad_resume_NLP.png)
+
+Figure 2: Example of a data science job description compared to a graphic designer's resume.
+
+![Good_resume_word_comparison](images/Good_resume_added_word_NLP.png)
+
+Figure 3: Example of a data science job description compared to a data scientist's resume with a nonsence word added to the job description "addedword".
+
 ### LLM based feedback
 The LLM aims to solve the lack of meaning transference by having an AI analyse the resume. It does this by taking the words from each text source and asking Open AI to compare them. The prompt it uses is: " Compare the job description and resume. give a score of similarity between 0 and 1, List the matching skills, experiences, and qualifications. Identify any gaps or areas where the resume does not meet the job description requirements." This provides both a percent similarity and feedback to note what is missing from the resume. The problem is the lack of absolute feedback, the AI model may not comment on something, or misinterpret what is passed through to it. All the general problems with AI are applicable here. However, it will not make the same mistake with the "Needs to be fluent in English." and "Cannot speak english. Fluent in Java." problem. It is very useful as recutier AI systems will probably act similarly and thus can make your resume look better from an AI perspective, which is what we are trying to solve.
 
