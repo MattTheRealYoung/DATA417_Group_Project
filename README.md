@@ -7,6 +7,8 @@ Code is stored in prototype_code, Explanation of NLP code is in ![NLP README](ht
 
 To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token.
 
+![Final Report](https://ucliveac-my.sharepoint.com/:w:/r/personal/nbu52_uclive_ac_nz/_layouts/15/Doc.aspx?sourcedoc=%7BD47174A0-324F-4F9A-AB8E-8B64CCFEAC9E%7D&file=DATA417-Group%20project%20Report.docx&fromShare=true&action=default&mobileredirect=true) 
+
 ## Amazon AI-based recruiting system
 Sample code for the system can be found on the link below:- https://github.com/rohitbakoliya/sieve.ai
 and solved code for our project can be similar to the NLP file in the project below:- https://github.com/marssemenova/TechTogetherFinal
