@@ -5,7 +5,7 @@ Explanation of project is in ![outline.md](https://github.com/MattTheRealYoung/D
 
 Code is stored in prototype_code, Explanation of NLP code is in ![NLP README](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/prototype_code/NLP%20README.md)
 
-To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token.
+To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token. Explanation of LLM code is in ![LLM_README](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/prototype_code/%23LLM_README.md)
 
 ![Final Report](https://ucliveac-my.sharepoint.com/:w:/r/personal/nbu52_uclive_ac_nz/Documents/DATA417-Group%20project%20Report.docx?d=wd47174a0324f4f9aab8e8b64ccfeac9e&csf=1&web=1&e=iv9vYd) 
 
