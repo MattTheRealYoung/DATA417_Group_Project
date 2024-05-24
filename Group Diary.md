@@ -96,6 +96,19 @@ Added New Algorithm description
 
 describing both the word based comparison and the LLM based comparison
 
+Talked about issues with algorithm
+
 5 paragraphs in section
 
 VL
+
+### 24 May 2024
+
+Added images to outline
+
+Added links to READ ME
+
+Editied 2 paragraphs in Outline.md
+
+VL
+
