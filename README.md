@@ -7,6 +7,7 @@ Code is stored in prototype_code, Explanation of NLP code is in ![NLP README](ht
 
 To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token. Explanation of LLM code is in ![LLM_README](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/prototype_code/%23LLM_README.md)
 
+# Final Report
 ![Final Report](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/DATA417-Group%20project%20Report.pdf) 
 
 ## Amazon AI-based recruiting system
