@@ -7,7 +7,7 @@ Code is stored in prototype_code, Explanation of NLP code is in ![NLP README](ht
 
 To explore the LLM recommendation in Llm_explore.py, you need to have a valid openai api token. Explanation of LLM code is in ![LLM_README](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/prototype_code/%23LLM_README.md)
 
-![Final Report]((https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/DATA417-Group%20project%20Report.pdf) 
+![Final Report](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/DATA417-Group%20project%20Report.pdf) 
 
 ## Amazon AI-based recruiting system
 Sample code for the system can be found on the link below:- https://github.com/rohitbakoliya/sieve.ai
@@ -32,4 +32,4 @@ and solved code for our project can be similar to the NLP file in the project be
 
 <> <img width="955" alt="image" src="https://github.com/MattTheRealYoung/DATA417_Group_Project/assets/162763066/a7aabc27-b772-4b33-ae94-8a92f6a60e7b"> -->
 
-![Final Report]((https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/DATA417-Group%20project%20Report.pdf) 
+![Final Report](https://github.com/MattTheRealYoung/DATA417_Group_Project/blob/main/DATA417-Group%20project%20Report.pdf) 
