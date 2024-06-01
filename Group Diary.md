@@ -112,3 +112,13 @@ Editied 2 paragraphs in Outline.md
 
 VL
 
+### 30 May 2024
+Finish writing the report
+Waiting for all group members to reread and provide feedback
+NB
+
+###  01 June 2024
+Finalize the report 
+updated report into Github
+
+(NB , VL, KM, MY, CY)
